@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 /* stylelint-disable-next-line */
 @tailwind base;
 /* stylelint-disable-next-line */
@@ -8,9 +9,11 @@
 @tailwind utilities;
 
 
-
 .cursive {
-  font-family: "Cedarville Cursive", cursive;
+  font-family: "Dancing Script", cursive;
+}
+.josefin {
+  font-family: "Josefin Sans", sans-serif;
 }
 .kaushan {
   font-family: "Kaushan Script", cursive;
