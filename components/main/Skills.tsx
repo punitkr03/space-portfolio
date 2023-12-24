@@ -1,8 +1,5 @@
-"use client"
-import {
-  Backend_skill,
-  Frontend_skill,
-} from "@/constants";
+"use client";
+import { Backend_skill, Frontend_skill } from "@/constants";
 import { Element } from "react-scroll";
 import React from "react";
 import SkillDataProvider from "../sub/SkillDataProvider";
