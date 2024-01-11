@@ -11,6 +11,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { Element } from "react-scroll";
 
 const Footer = () => {
+  const currYear = new Date().getFullYear();
   return (
     <div className="z-[20] w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] ">
       <Element name="contact" />
@@ -74,7 +75,7 @@ const Footer = () => {
         </div>
 
         <div className="mb-[.5rem] text-[15px] text-center">
-          &copy;2023 All rights reserved
+          &copy;{currYear} All rights reserved
         </div>
       </div>
     </div>
